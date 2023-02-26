@@ -1,0 +1,17 @@
+.sectionService{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.sectionServiceContent{
+    width: 80%;
+    text-align: center;
+
+}
+.containerCards{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 1rem;
+}
