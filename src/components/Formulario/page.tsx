@@ -1,13 +1,12 @@
 import { useState } from "react"
 
-const page=() => {
+const Page=() => {
     const [user, setUser] = useState("")
 
     const subir=(event:any)=>{
         console.log('Probando funcionamiento')
         event.preventDefault()
     }
-    console.log(user)
     return (
         <>
             <form onSubmit={(e)=>subir(e)}>
@@ -23,4 +22,4 @@ const page=() => {
 }
 
 
-export default page
+export default Page
