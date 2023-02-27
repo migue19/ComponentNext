@@ -13,9 +13,21 @@ const Page=() => {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perferendis voluptate fugit id, quas, excepturi iste vitae totam alias velit molestiae! Rem est quia officia iure impedit dolorum officiis eveniet?</p>
                 </div>
                 <div className={styles.containerCards}>
-                    <CardComponent titulo='diseño' descripcion='descripcion' imagenUrl='pruebaIcon'></CardComponent>
-                    <CardComponent titulo='diseño' descripcion='descripcion' imagenUrl='pruebaIcon'></CardComponent>
-                    <CardComponent titulo='diseño' descripcion='descripcion' imagenUrl='pruebaIcon'></CardComponent>
+                    <CardComponent 
+                    titulo='Full Customizable' 
+                    descripcion='Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perferendis voluptate fugit id, quas,' 
+                    imagenUrl='bi bi-bag'></CardComponent>
+
+                    <CardComponent 
+                    titulo='High Quality Design' 
+                    descripcion='Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perferendis voluptate fugit id, quas,' 
+                    imagenUrl='bi bi-bookmark-star'></CardComponent>
+                    
+                    <CardComponent 
+                    titulo='Security' 
+                    descripcion='Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perferendis voluptate fugit id, quas,' 
+                    imagenUrl='bi bi-shield-check'></CardComponent>
+
                 </div>
                 
             </div>
