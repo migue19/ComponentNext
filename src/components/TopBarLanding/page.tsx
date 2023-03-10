@@ -28,7 +28,7 @@ const Page: React.FC<parametros> = ({ datos }) => {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <Navbar expand='md' fixed='top'  dark={true}>
+        <Navbar expand='md' fixed='top'  dark={true} style={{backgroundColor: 'blue'}}>
         <NavbarBrand href="/">Logo</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

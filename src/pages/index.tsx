@@ -3,6 +3,7 @@ import TopBarLanding from '../components/TopBarLanding';
 import Formulario from '../components/Formulario';
 import SectionLandingTop from '@/components/SectionLangindTop';
 import SectionServices from '@/components/SectionServices';
+import SectionFooter from '@/components/SectionFooter';
 import styles from '../styles/Home.module.scss'
 
 export default function Home() {
@@ -16,13 +17,20 @@ export default function Home() {
       <div >
         <TopBarLanding></TopBarLanding>
       </div>
+
       <div id={'inicio'} className={styles.sectionTop}>
         <SectionLandingTop></SectionLandingTop>
       </div>
+      
+      <Formulario></Formulario>
+
       <div id={'servicios'} className={styles.sectionServices}>
         <SectionServices></SectionServices>
       </div>
 
+      <div className={styles.sectionFooter}>
+        <SectionFooter></SectionFooter>
+      </div>
     
     </>
   )

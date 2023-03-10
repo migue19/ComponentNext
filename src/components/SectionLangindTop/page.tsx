@@ -2,6 +2,7 @@ import styles from './styles.module.scss'
 
 const Page=() => {
     return (
+      <>
       <div className={styles.sectionLandingContainer}>
         <div className={styles.sectionLandingContent}>
             <h1>Lorem Ipsum</h1>
@@ -11,6 +12,7 @@ const Page=() => {
               as opposed to using Content here, content here, making it look like readable English.</p>
         </div>
       </div>
+      </>
     )
 
 }
