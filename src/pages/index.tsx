@@ -5,7 +5,8 @@ import SectionLandingTop from '@/components/SectionLangindTop';
 import SectionServices from '@/components/SectionServices';
 import SectionFooter from '@/components/SectionFooter';
 import styles from '../styles/Home.module.scss'
-
+import SectionTables from '@/components/SectionTables';
+import SectionResponsive from '@/components/SectionResponsive';
 export default function Home() {
   return (
     <>
@@ -22,8 +23,6 @@ export default function Home() {
         <SectionLandingTop></SectionLandingTop>
       </div>
       
-      <Formulario></Formulario>
-
       <div id={'servicios'} className={styles.sectionServices}>
         <SectionServices></SectionServices>
       </div>

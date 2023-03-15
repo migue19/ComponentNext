@@ -1,0 +1,29 @@
+.containerGrid{
+    height: 100vh;
+    width: 100%;
+}
+.containerGridContent{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "nabvar navbar navbar navbar"
+    "landing landing landing landing"
+    "nabvar navbar navbar sectionvertical"
+    "nabvar navbar navbar sectionvertical"
+    "footer footer footer footer"
+    ;
+}
+.areaNavBar{
+
+}
+.areaLanding{
+
+}
+.sectionVertical{
+
+}
+
+.areaFooter{
+
+}
