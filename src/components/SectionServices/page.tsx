@@ -1,8 +1,24 @@
 import styles from './styles.module.scss'
 import CardComponent from '../ComponentsElement/CardComponent'
+import CardTest from '../ComponentsElement/CardTest'
 import { CardInterface } from '@/Interfaces/card'
 
 let servicio1: CardInterface
+
+
+const users = [
+    {
+        name: "Carlos", 
+    lastName: "Menchaca"},
+    {
+        name: "Antonio", 
+    lastName: "Nuñez"},
+    {
+        name: "Miguel", 
+    lastName: "Mexicano"},
+
+
+    ]
 
 const Page=() => {
     return (
@@ -13,6 +29,8 @@ const Page=() => {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perferendis voluptate fugit id, quas, excepturi iste vitae totam alias velit molestiae! Rem est quia officia iure impedit dolorum officiis eveniet?</p>
                 </div>
                 <div className={styles.containerCards}>
+                    {users.map(user =>  (<CardTest name = {user.name} lastName = {user.lastName} ></CardTest>))}
+                    
                     <CardComponent 
                     titulo='Full Customizable' 
                     descripcion='Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perferendis voluptate fugit id, quas,' 
@@ -25,6 +43,11 @@ const Page=() => {
                     
                     <CardComponent 
                     titulo='Security' 
+                    descripcion='Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perferendis voluptate fugit id, quas,' 
+                    imagenUrl='bi bi-shield-check'></CardComponent>
+
+                    <CardComponent 
+                    titulo='Test' 
                     descripcion='Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perferendis voluptate fugit id, quas,' 
                     imagenUrl='bi bi-shield-check'></CardComponent>
 
